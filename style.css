@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 220px;
+}
+.logo img{
+    height: 75px;
+}
+.navbar{
+    margin-left: 200px;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 50px;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 18px 25px 18px 25px;
+    border-radius: 30px;
+    margin: 0;
+}
+.second-btn{
+    background-color: #ED1C24;
+    margin-left: 10px;
+}
+.second-btn i{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50%;
+    color: #ED1C24;
+    margin-left: 10px;
+}
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+.brand-about{
+    margin-top: 100px;
+    width: 770px;
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+}
+.brand-about h1{
+    font-size: 40px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.brand-about span{
+    font-size: 50px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.brand-about p{
+    font-size: 20px;
+}
+.our-brand{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+.brand img{
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.order-btn{
+    margin-top: 50px;
+}
+.order-btn a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+}
+.second-section{
+    background-color: #0F0F0F;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page-logo img{
+    position: absolute;
+    right: 0;
+
+}
+.franchise-about{
+    width: 770px;
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+}
+.franchise-about h1{
+    font-size: 40px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 50px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.franchise-about span{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.franchise-about p{
+    font-size: 20px;
+}
+.main{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: center;
+    margin-left: 12%;
+    padding-top: 50px;
+}
+.card{
+    height: 300px;
+    width: 550px;
+    /* background-color: aliceblue; */
+    color: white;
+    z-index: 1;
+}
+.content{
+    padding-left: 10px;
+}
+.content h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(170, 0, 0);
+    letter-spacing: 15px;
+    font-size: 22px;
+}
+.content span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.content h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.content p{
+    font-size: 20px;
+}
+.Map-btn{
+    margin-top: 50px;
+}
+.Map-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(160, 160, 160);
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+}
+.Map-btn i{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50%;
+    color: #ED1C24;
+    margin-left: 10px;
+}
+.third-section{
+    background-color: black;
+}
+.third-logo img{
+    position: absolute;
+    left: 10px;
+    margin-top: 20px;
+}
+.about-franchis{
+    margin-top: 100px;
+    width: 770px;
+    text-align: center;
+    margin-left: 41%;
+    width: 400px;
+    font-size: 20px;
+}
+.about-franchis h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.about-franchis span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.our-franchis{
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+    text-align: center;
+    z-index: 1;
+    gap: 20px;
+}
+.franchis{
+    margin-top: 20px;
+}
+.franchis img{
+    height: 300px;
+    width: 360px;
+}
+.franchis span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.franchis h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+.franchis h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #ED1C24;
+}
+.Map-btn2{
+    margin-top: 50px;
+}
+.Map-btn2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(160, 160, 160);
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+}
+.Map-btn2 i{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50%;
+    color: #ED1C24;
+    margin-left: 10px;
+    transform: rotate(-37deg);
+}
+.fourth-section{
+    background-color: #0F0F0F;
+    margin-top: 100px;
+    justify-content: center;
+}
+.village-heading{
+    /* margin-top: 50px; */
+    width: 400px;   
+    margin: 10% 0 0 40%;
+}
+.village span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.village h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.village-content{
+    display: flex;
+    /* align-items: center; */
+}
+.village-img{
+    margin-left: 0;
+}
