@@ -1,7 +1,23 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     color: white;
     background-color: black;
+}
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #e9212e;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
 }
 .header{
     height: 100px;
@@ -9,6 +25,9 @@ body{
     background-color: black;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 .logo{
     margin-left: 220px;
@@ -271,20 +290,20 @@ body{
 .fourth-section{
     background-color: #0F0F0F;
     margin-top: 100px;
-    justify-content: center;
+    /* margin-bottom: 100px; */
+    padding-bottom: 50px;
 }
 .village-heading{
-    /* margin-top: 50px; */
-    width: 400px;   
-    margin: 10% 0 0 40%;
+    text-align: center;
+    padding-top: 50px;
 }
-.village span{
+.village-heading span{
     font-family: "Black Ops One", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 50px;
 }
-.village h1{
+.village-heading h1{
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 500;
     font-style: normal;
@@ -292,8 +311,226 @@ body{
 }
 .village-content{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 }
 .village-img{
     margin-left: 0;
+}
+.village-about{
+    margin-left: 20px;
+}
+.village-about span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.village-about h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+.village-about h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #ED1C24;
+}
+.village-btn{
+    margin-top: 60px;
+}
+.village-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(160, 160, 160);
+    padding: 18px 30px 18px 30px;
+    border-radius: 30px;
+    background-color: #28A745;
+}
+.village-btn i{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 50%;
+    color: #28A745;
+    margin-left: 10px;
+}
+.comming-soon-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.comming-soon-heading h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+}
+.comming-soon-heading span{
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+.comming-soon-card-main{
+    margin-left: 190px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #000000;
+    width: 1200px;
+    gap: 20px;
+}
+.comming-soon-card{
+    height: 270px;
+    width: 350px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.comming-soon-card img{
+    height: 70px;
+    width: 70px;
+    margin-left: 40%;
+    margin-top: 13px;
+}
+.comming-soon-card p{
+    color: #ED1C24;
+    letter-spacing: 3px;
+}
+.comming-soon-card span{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 35px;
+}
+.comming-soon-card h1{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+.social-feed{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social-feed img{
+    height: 280px;
+    width: 290px;
+}
+.social-heading{
+    text-align: center;
+}
+.social-heading h1{
+    font-size: 45px;
+}
+
+footer{
+    background-color: #0F0F0F;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    line-height: 18px;
+    padding-top: 20px;
+}
+.about-us img{
+    width: 180px;
+}
+
+.about-us p{
+    line-height: 25px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.site-links h1{
+    line-height: 25px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 25px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-categorie h1{
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 10px;
+}
+
+.menu-categorie h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu-categorie p{
+    color: rgba(255, 255, 255, 0.7);
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.follow-us h1{
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icon i{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+}
+.appstore{
+    margin-top: 30px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #7a7a7a;
+    margin-top: 50px;
+}
+.powered-by{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
 }
